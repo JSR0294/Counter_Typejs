@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/background-gradient-lights.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.heading{
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    padding: 20px;
+    text-transform: capitalize;
+    border: 5px double #fff;
+    margin-bottom: 20px;
+}
+
+.typejs{
+    gap: 15px;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.container{
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.slot{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
